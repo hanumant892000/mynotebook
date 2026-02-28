@@ -2,7 +2,7 @@ import React from "react";
 import Drawer from "@mui/material/Drawer";
 import Box from "@mui/material/Box";
 import userIcon from "../assets/usericon.png";
-import { useAuthState } from "../contextapi/Authstate";
+import { useAuthState } from "../contextapi/AuthState";
 import { BookHeart, LogOut, Notebook, Settings, UserRoundCog } from "lucide-react";
 import { Link } from "react-router-dom";
 

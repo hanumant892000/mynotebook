@@ -1,5 +1,5 @@
 import { Earth, LockKeyhole, SquarePen, Trash2 } from "lucide-react";
-import { useAuthState } from "../contextapi/Authstate";
+import { useAuthState } from "../contextapi/AuthState";
 import { useState } from "react";
 import EditNotesModal from "./EditNotesModal";
 import { useNoteState } from "../contextapi/NoteState";

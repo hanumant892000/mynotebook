@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link} from "react-router-dom";
 import { BASEURLS } from "./../BaseUrls";
-import { useAuthState } from "../contextapi/Authstate";
+import { useAuthState } from "../contextapi/AuthState";
 import { errorEmitter, successEmitter } from "../ToastifyEmitter";
 
 function Signup() {
