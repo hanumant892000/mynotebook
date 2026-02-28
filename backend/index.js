@@ -14,7 +14,9 @@ connectToDB()
 
 /* app.use( express.static('uploads')) */
 
-app.use(cors())
+app.use(cors({
+    origin:["http://localhost:5173", "https://mynoteb00k.netlify.app"]
+}))
 app.use(express.json())
 
 app.get("/", (req, res) => {
