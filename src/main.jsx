@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
-import AuthState from "./contextapi/Authstate.jsx";
+import AuthState from "./contextapi/AuthState.jsx";
 import { ToastContainer } from "react-toastify";
 import NoteState from "./contextapi/NoteState.jsx";
 
